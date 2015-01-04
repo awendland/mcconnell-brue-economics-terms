@@ -123,7 +123,7 @@ def main(args):
             definition = result[2]
             score = result[3]
             message = colors.BG_WHITE + colors.BLACK + term + colors.END
-            if (score < .97):
+            if (score < 1):
                 message += " -> " + colors.BG_YELLOW + colors.BLACK + match + colors.END
             message += ": " + re.sub(r'_(.+?)_', '\\033[4m\g<1>\\033[0m', definition)
             print(message)

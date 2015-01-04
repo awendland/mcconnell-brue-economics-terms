@@ -31,4 +31,4 @@ This argument setup looks like `./definy.py FILE_NAME.txt OPTIONAL_DELIMITER="\n
 
 You'll notice that `international monetary fund -> International Monetary Fund (IMF)` appears. This is because there was no direct match for `international monetary fund`. What the program found instead was `International Monetary Fund (IMF)` because that was the closest match in the glossary.
 
-Every search using this program will return a result. If the result is less than `97%` similar to the search than the above arrowing-matching format will be displayed.
+Every search using this program will return a result. If the result is less than `100%` similar to the search than the above arrowing-matching format will be displayed.
